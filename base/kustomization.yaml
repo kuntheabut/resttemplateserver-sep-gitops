@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ==========================================
 # base/kustomization.yaml
 # 공통 Kubernetes 리소스 정의
@@ -12,3 +13,19 @@ images:
   - name: resttemplateserver-sep
     newName: 210.90.24.172:8080/project-sep/leeyoungkon/resttemplateserver-sep
     newTag: latest
+=======
+# ==========================================
+# base/kustomization.yaml
+# 공통 Kubernetes 리소스 정의
+# ==========================================
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - k8s.yaml
+  
+images:
+  - name: resttemplateserver-sep
+    newName: 210.90.24.172:8080/project-sep/leeyoungkon/resttemplateserver-sep
+    newTag: latest
+>>>>>>> 034a1ac6d63725f042f1ac055baf608752900049
