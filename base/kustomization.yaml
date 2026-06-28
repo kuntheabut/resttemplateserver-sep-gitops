@@ -12,3 +12,5 @@ images:
   - name: resttemplateserver-sep
     newName: 210.90.24.172:8080/camit/butkunthea/resttemplateserver-sep
     newTag: latest
+
+#======k
